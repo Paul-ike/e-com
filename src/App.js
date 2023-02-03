@@ -1,7 +1,21 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import AddProduct from "./components/AddProduct/AddProduct";
+import Order from "./components/Order/Order";
+import Users from "./components/Users/Users";
 
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/addproduct" element={<AddProduct />} />
+          <Route path="/order" element={<Order />} />
+          <Route path="/users" element={<Users />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;

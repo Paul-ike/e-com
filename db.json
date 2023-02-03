@@ -1,0 +1,36 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "name": "Women Red Heels Sandal",
+      "email": "user@gmail.com",
+      "total": 45789,
+      "paid": "Paid",
+      "date": "Dec 12 2021",
+      "status": "Delivered"
+    },
+    {
+      "id": 2,
+      "name": "Velcro Sneakers For Boys & Girls (Blue)",
+      "email": "user2@gmail.com",
+      "total": 45789,
+      "paid": "Not Paid",
+      "date": "Dec 12 2021",
+      "status": "Not Delivered"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Shallen",
+      "position": "Admin",
+      "email": "shallen@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Veronicah",
+      "position": "Customer",
+      "email": "veronicah@gmail.com"
+    }
+  ]
+}
